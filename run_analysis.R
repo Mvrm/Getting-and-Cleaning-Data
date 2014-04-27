@@ -10,3 +10,5 @@ S <- rbind(subject_train, subject_test)
 y_train <- read.table("C:\Users\Manish\Desktop\data\train\y_train.txt")
 y_test <- read.table("C:\Users\Manish\Desktop\data\test\y_test.txt")
 Y <- rbind(y_train, y_test)
+
+# 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
